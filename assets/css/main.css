@@ -2055,7 +2055,8 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0;
+			/* opacity: 0.5; */
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -2071,9 +2072,11 @@ input, select, textarea {
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
-				border: solid 3px rgba(255, 255, 255, 0.5);
-				color: #fff;
-				content: 'View';
+				/* border: solid 3px rgba(255, 255, 255, 0.5); */
+				border: solid 3px pink;
+				/* color: #fff; */
+				color: pink;
+				content: 'Live';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
@@ -2464,17 +2467,31 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			/* border-color: #49bf9d;
+			color: #49bf9d !important; */
+
+			border-color: pink;
+			color: pink !important;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			/* background-color: rgba(73, 191, 157, 0.1); */
+			/* border-color: #49bf9d;
+			color: #49bf9d !important; */
+
+			background-color: rgba(214, 119, 198, 0.1);
+			border-color: pink;
+			color: pink !important;
+		}
+
+		input[type="submit"]:focus,
+		input[type="reset"]:focus,
+		input[type="button"]:focus,
+		.button:focus {
+			outline: none;
 		}
 
 		input[type="submit"].icon,
