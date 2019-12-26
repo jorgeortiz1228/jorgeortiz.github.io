@@ -2666,7 +2666,7 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #fffafa;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2674,7 +2674,8 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.514);
+			/* color: rgba(255, 255, 255, 0.514); */
+			color: #fffafa;
 			font-size: 1.75em;
 			line-height: 1.75em;
 			margin: 0;
@@ -3050,7 +3051,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 13pt;
 			}
 
 			/* this is coming in from medium */
